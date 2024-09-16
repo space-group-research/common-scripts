@@ -1,0 +1,3 @@
+! PBE D3ZERO def2-TZVP autoaux chelpg pal8
+%maxcore 4000
+*xyzfile {CHARGE} {MULTIPLICITY} {FILENAME.XYZ}
