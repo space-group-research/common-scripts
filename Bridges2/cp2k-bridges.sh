@@ -11,4 +11,4 @@
 module purge
 module load CP2K/8.1-gcc10.2.0-openmpi4.0.5 gcc/10.2.0 openmpi/4.0.5-gcc10.2.0
 
-mpirun -np 25 cp2k.popt -i *.inp -o runlog.log
+mpirun -np 64 cp2k.popt -i *.inp -o runlog.log
