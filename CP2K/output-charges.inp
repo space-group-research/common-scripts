@@ -1,0 +1,14 @@
+#This is usually paired with an ENERGY job type in CP2K. Insert the '&PROPERTIES' subsection below the '&FORCE_EVAL' section like so:
+&FORCE_EVAL
+  &PROPERTIES
+    &RESP
+      USE_REPEAT_METHOD TRUE
+      &SPHERE_SAMPLING
+      &END SPHERE_SAMPLING
+      &PRINT
+        &RESP_CHARGES_TO_FILE
+        &END RESP_CHARGES_TO_FILE
+      &END PRINT
+    &END RESP
+  &END PROPERTIES
+#...Remaining content of script.
