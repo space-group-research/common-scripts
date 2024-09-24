@@ -61,8 +61,8 @@
       COORD_FILE_FORMAT XYZ
     &END
     &KIND {insert element name, repeat section for any additional elements present}
-      BASIS_SET TZVP-MOLOPT-SR-GTH {insert basis set; we typically use TZVP-MOLOPT-SR-GTH for metals and TZVP-MOLOPT-GTH for non-metals}
-      POTENTIAL {insert potential, typically GTH-PBE}
+      BASIS_SET {insert basis set; we typically use TZVP-MOLOPT-SR-GTH for metals and TZVP-MOLOPT-GTH for non-metals}
+      POTENTIAL {insert potential, typically GTH-PBE, completely replace line with 'GHOST' for ghost atoms}
     &END KIND
   &END SUBSYS
 &END FORCE_EVAL
