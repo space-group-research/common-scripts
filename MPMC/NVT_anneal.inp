@@ -1,4 +1,4 @@
-job_name                2d-tifsix
+job_name                {your job name}
 
 ensemble                nvt
 
@@ -10,13 +10,13 @@ rot_factor              1
 
 simulated_annealing     on
 simulated_annealing_schedule 0.995
-simulated_annealing_target 1
+simulated_annealing_target 1 !final temp in K
 simulated_annealing_linear off
-temperature             244.913531
+temperature             1000 !starting temp in K
 pressure                1
 !free_volume             
 
-abcbasis                17.035 21.718 25.969 90.0 118.71 90.0
+abcbasis                {a b c alpha beta gamma}
 
 !h2_fugacity             on
 !feynman_hibbs           on
