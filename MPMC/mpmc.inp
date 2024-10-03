@@ -1,0 +1,41 @@
+job_name                2d-tifsix
+
+ensemble                nvt
+
+numsteps                1000000
+corrtime                1000
+move_factor             1
+insert_probability      0.666
+rot_factor              1
+
+simulated_annealing     on
+simulated_annealing_schedule 0.995
+simulated_annealing_target 1
+simulated_annealing_linear off
+temperature             244.913531
+pressure                1
+!free_volume             
+
+abcbasis                17.035 21.718 25.969 90.0 118.71 90.0
+
+!h2_fugacity             on
+!feynman_hibbs           on
+!feynman_hibbs_order     4
+
+polarization            off
+polar_damp_type         exponential
+polar_damp              2.1304
+polar_wolf              on
+polar_wolf_alpha        0.13
+
+polar_iterative         on
+polar_palmo             on
+polar_gs_ranked         on
+polar_gamma             1.03
+polar_max_iter          4
+
+wrapall                 on
+pqr_input               start-pos.pqr
+pop_histogram           on
+pop_histogram_output    histogram.dat
+parallel_restarts       on
