@@ -9,7 +9,7 @@ insert_probability      0.666
 rot_factor              1
 
 simulated_annealing     on
-simulated_annealing_schedule 0.995
+simulated_annealing_schedule 0.999
 simulated_annealing_target 1 !final temp in K
 simulated_annealing_linear off
 temperature             1000 !starting temp in K
