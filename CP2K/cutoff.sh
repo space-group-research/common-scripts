@@ -15,8 +15,8 @@ echo "Input file is ${inp_file}."
         cd $cutoff
         cp $base/start-pos.xyz . #update if you're using a different file name for your atomic positions
         cp $base/cp2k.sh . #update if your cp2k submit script is named differently
-        sed -e "s/LT_rel_cutoff/${rel_cutoff}/g" \
-            -e "s/LT_cutoff/${cutoff}/g" $base/${inp_file} > ${inp_file}
+        sed -e "s/LT_rel_cutoff/${rel_cutoff}/g" \ #Be sure to update the REL_CUTOFF field in your input script with 'LT_rel_cutoff'
+            -e "s/LT_cutoff/${cutoff}/g" $base/${inp_file} > ${inp_file} #Ce sure to update the CUTOFF field in input script with 'LT_cutoff'
         bsub < cp2k.sh
         cd ../..
     done
