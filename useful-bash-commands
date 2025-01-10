@@ -1,0 +1,3 @@
+bjobs -l #bjobs long
+bjobs -u all -q space #display cores/queues of everyone else in space queue
+htop #see all processes on computer
