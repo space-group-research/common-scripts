@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jan 16 20:00:24 2024
+How to use NMWizard in VMD: https://www.youtube.com/watch?v=gt2VzWNruis
 
 @author: Angela Shipman and Adam Hogan
 """
