@@ -1,6 +1,7 @@
 #!/bin/bash
-#BSUB -n 32
-#BSUB -R "span[hosts=1] select[ttc || stc]"
+#BSUB -n 16
+#BSUB -R "span[hosts=1] select[ttc || stc] rusage[mem=2GB/task]"
+#BSUB -M 2GB!
 #BSUB -W 48:00
 #BSUB -J your-job-name
 #BSUB -q space
