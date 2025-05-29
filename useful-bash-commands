@@ -1,3 +1,7 @@
-bjobs -l #bjobs long
-bjobs -u all -q space #display cores/queues of everyone else in space queue
+bjobs -l #bjobs list, see full submit scripts & details
+bjobs -q name_of_queue # see all YOUR jobs in queue
+bjobs -q name_of_queue -u USER #see USER's job in queue, set "USER" to "all" to see everyone in that queue
 htop #see all processes on computer
+bjobs -w #see entire name of job
+history #shows you all commands you made in that session
+tree #see structure of your directories, add -d flag for just directories
