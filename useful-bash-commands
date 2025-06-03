@@ -5,3 +5,4 @@ htop #see all processes on computer
 bjobs -w #see entire name of job
 history #shows you all commands you made in that session
 tree #see structure of your directories, add -d flag for just directories
+lshosts #get information about processors
