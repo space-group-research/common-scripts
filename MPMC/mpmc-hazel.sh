@@ -1,6 +1,7 @@
 #!/bin/bash
 #BSUB -n 4
-#BSUB -R "span[hosts=1]"
+#BSUB -R "span[hosts=1] rusage[mem=2GB/task]"
+#BSUB -M 2GB!
 #BSUB -W 48:00
 #BSUB -J your-mpmc-job
 #BSUB -o stdout.%J
