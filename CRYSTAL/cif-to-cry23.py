@@ -19,7 +19,7 @@ scipy.spatial.transform.Rotation.apply = patched_apply
 # ==============================================================================
 
 # Define your file names
-input_cif = "geo-cellopt.cif"  # Change this to your CIF file's name
+input_cif = "your-structure.cif"  # Change this to your CIF file's name
 output_gui = "structure.gui"  # This is essentially your fort.34 file
 
 if os.path.exists(input_cif):
