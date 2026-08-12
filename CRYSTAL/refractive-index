@@ -1,0 +1,28 @@
+Your title - refractive index static, HSE06/POB-TZVP-REV2
+CRYSTAL
+0 0 0
+{space group number}
+{a b c alpha beta gamma}
+{total N atoms}
+{atom coords}
+BASISSET
+POB-TZVP-REV2
+DFT
+HSE06
+XLGRID
+ENDDFT
+SHRINK
+4 8
+TOLINTEG
+7 7 7 7 14
+TOLDEE
+8
+MAXCYCLE
+200
+FMIXING
+70
+DIIS
+END
+CPHF
+STATIC
+END
